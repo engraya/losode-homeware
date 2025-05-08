@@ -4,12 +4,12 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
 import TopNavBar from "./TopNavBar";
-import { useSearch } from "../contexts/SearchContext";  // Import search context
+import { useSearch } from "../contexts/SearchContext"; 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleMenu = () => setIsOpen(!isOpen);
 
-  const { setQuery } = useSearch();  // Get the setQuery function from context
+  const { setQuery } = useSearch(); 
 
 
   const navLinks = [

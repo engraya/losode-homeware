@@ -8,21 +8,19 @@ import SubComponent from "./components/SubComponent";
 import Contemporary from "./components/Contemporary";
 import Yours from "./components/Yours";
 import Products from "./components/Products";
-import { useSearch } from "./contexts/SearchContext"; // Import the search context
+import { useSearch } from "./contexts/SearchContext";
 
 export default function Home() {
-  const { query } = useSearch();  // Get the search query from context
+  const { query } = useSearch();
   const [showAllComponents, setShowAllComponents] = useState(true);
 
   useEffect(() => {
     if (query) {
-      // If there's a search query, hide other components
       setShowAllComponents(false);
     } else {
-      // If there's no search query, show all components
       setShowAllComponents(true);
     }
-  }, [query]);  // Re-run this effect whenever the search query changes
+  }, [query]); 
 
   return (
     <>
@@ -36,8 +34,6 @@ export default function Home() {
           <SubComponent />
         </>
       )}
-
-      {/* Always show Products component at the top when there's a search */}
       <Products />
     </>
   );

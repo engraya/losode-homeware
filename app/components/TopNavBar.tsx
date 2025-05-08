@@ -6,13 +6,15 @@ function TopNavBar() {
     <div className="mx-auto flex justify-between items-center">
       <span className="text-right">
         New to Losode?{" "}
-        <Link href="/subscribe" className="text-blue-500 hover:underline">
+        <Link href="#" className="text-blue-500 hover:underline">
           Subscribe and Get 10% off your first order
         </Link>
       </span>
-      <span className="hidden sm:block underline">
+      <Link href="https://www.losode.com" target='_blank' className="hidden sm:block text-gray-800">
+      <span className="hidden sm:block underline cursor-pointer">
         Sell On Losode
       </span>
+      </Link>
     </div>
   </div>
   )

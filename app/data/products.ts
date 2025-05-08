@@ -1,5 +1,5 @@
 import { StaticImageData } from 'next/image';
-import { cups, cotton, wood, pots, tableSetting, kitchenUtensils } from '../components/assets';
+import { cups, wood, tableSetting, kitchenUtensils } from '../components/assets';
 export interface Product {
   name: string;
   description: string;
