@@ -10,9 +10,9 @@ function TopNavBar() {
           Subscribe and Get 10% off your first order
         </Link>
       </span>
-      <Link href="#" className="underline">
+      <span className="hidden sm:block underline">
         Sell On Losode
-      </Link>
+      </span>
     </div>
   </div>
   )

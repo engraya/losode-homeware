@@ -11,8 +11,8 @@ function Footer() {
       {/* Logo/Name section with interactive effect */}
       <div className="group">
         <div className="flex items-center space-x-2 mb-6">
-          <h2 className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500">
-            Manuel Dala
+          <h2 className="text-2xl font-bold bg-clip-text text-white">
+            Losode
           </h2>
         </div>
         <p className="text-gray-300 mb-6">Innovating digital experiences one line of code at a time.</p>
@@ -56,7 +56,7 @@ function Footer() {
         <ul className="space-y-4">
           <li className="flex items-start">
             <div className="flex-shrink-0 mt-1">
-              <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse">
+              <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center animate-pulse">
                 <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
@@ -64,12 +64,12 @@ function Footer() {
             </div>
             <div className="ml-3">
               <p className="text-sm text-gray-300">Email</p>
-              <a href="mailto:manueljosedala@hotmail.com" className="text-white hover:text-blue-400 transition">manueljosedala@hotmail.com</a>
+              <a href="mailto:manueljosedala@hotmail.com" className="text-white hover:text-blue-400 transition">hello@losode.com</a>
             </div>
           </li>
           <li className="flex items-start">
             <div className="flex-shrink-0 mt-1">
-              <div className="w-8 h-8 bg-blue-500/20 rounded-full flex items-center justify-center animate-pulse" style={{animationDelay: '0.2s'}}>
+              <div className="w-8 h-8 bg-gray-800 rounded-full flex items-center justify-center animate-pulse" style={{animationDelay: '0.2s'}}>
                 <svg className="w-4 h-4 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
@@ -77,7 +77,7 @@ function Footer() {
             </div>
             <div className="ml-3">
               <p className="text-sm text-gray-300">Phone</p>
-              <a href="tel:+244941540352" className="text-white hover:text-blue-400 transition">+244 941 540 352</a>
+              <a href="tel:+244941540352" className="text-white hover:text-blue-400 transition">+2348012345678</a>
             </div>
           </li>
         </ul>
@@ -85,7 +85,7 @@ function Footer() {
       {/* Newsletter with floating input */}
       <div>
         <h3 className="text-lg font-semibold mb-6">Stay Updated</h3>
-        <p className="text-gray-300 mb-4">Subscribe to my newsletter for the latest updates.</p>
+        <p className="text-gray-300 mb-4">Subscribe to our newsletter for the latest updates.</p>
         <form className="mt-4">
           <div className="relative">
             <input type="email" placeholder="Your email" className="w-full bg-gray-800 border border-gray-700 rounded-lg py-3 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent placeholder-gray-500 text-white" />
