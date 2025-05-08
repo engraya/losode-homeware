@@ -1,5 +1,5 @@
 import { StaticImageData } from 'next/image';
-import { cups, cotton, wood, pots } from '../components/assets';
+import { cups, cotton, wood, pots, tableSetting, kitchenUtensils } from '../components/assets';
 export interface Product {
   name: string;
   description: string;
@@ -9,27 +9,28 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    name: 'Exercise Equipment',
-    description: 'Create Exercises for any subject with the topics you and your students care about.',
+    name: 'Ceramic Cup Tray Set',
+    description: 'A beautifully crafted set of ceramic cups neatly arranged on a wooden tray — perfect for serving guests with style.',
     price: '₦74,030',
     image: cups,
   },
   {
-    name: 'Yoga Mat',
-    description: 'Comfortable and durable yoga mat for all your workout needs.',
-    price: '₦5,000',
+    name: 'Handcrafted Wooden Sculptures',
+    description: 'Elegant wooden decor pieces carved by artisans to bring warmth and natural charm to your living space.',
+    price: '₦255,000',
     image: wood,
   },
   {
-    name: 'Running Shoes',
-    description: 'High-performance running shoes for all levels of runners.',
+    name: 'Elegant Kitchen Utensils',
+    description: 'A premium set of kitchen tools designed for both style and function—perfect for modern culinary spaces.',
     price: '₦25,000',
-    image: cotton,
-  },
+    image: kitchenUtensils,
+  },  
   {
-    name: 'Fitness Tracker',
-    description: 'Track your workouts, steps, and sleep with this advanced fitness tracker.',
+    name: 'Dinner Table Setting Set',
+    description: 'An elegant dining set curated to elevate your table décor—ideal for hosting and everyday luxury.',
     price: '₦12,500',
-    image: pots,
-  },
+    image: tableSetting,
+  }
+  
 ];

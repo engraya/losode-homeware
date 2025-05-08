@@ -12,10 +12,14 @@ import hero3 from "./hero3.jpg"
 import image1 from "./image1.jpg"
 import image2 from "./image2.jpg"
 import image3 from "./image3.jpg"
+import tableSetting from "./table setting.jpg"
+import kitchenUtensils from "./kitchen utensils.jpg"
 
 
 export {
     homeware1,
+    tableSetting,
+    kitchenUtensils,
     homeware2,
     homeware3,
     substance,

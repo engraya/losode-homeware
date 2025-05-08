@@ -14,7 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ name, description, price, ima
     <div className="p-4 max-w-lg cursor-pointer shadow-xl rounded-xl duration-500 hover:scale-105 hover:shadow-xl hover:shadow-indigo-50 flex flex-col items-center">
       <Image src={image} alt={name} className="shadow rounded-lg overflow-hidden border" />
       <div className="mt-4">
-        <h4 className="font-bold text-xl">{name}</h4>
+        <h4 className="font-bold text-lg whitespace-nowrap">{name}</h4>
         <p className="mt-2 text-gray-600">{description}</p>
         <div className="flex justify-between mt-5">
           <span className="underline">Buy Now</span>
